@@ -1,0 +1,9 @@
+html, body, * {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.image {
+    width: 350px;
+    height: 350px;
+
+}
