@@ -6,8 +6,28 @@ html, body, * {
     font-size: 62.5%;
 }
 
-.image {
+#image {
     width: 350px;
     height: 350px;
+    border: .5rem solid brown;
+}
 
+.cards {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.card {
+    margin: 7rem;
+    max-width: 100rem;
+    border: .5rem solid brown;
+}
+
+#text{
+    font-size: 2rem;
+    text-align: center;
 }
