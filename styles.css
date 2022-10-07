@@ -6,13 +6,42 @@ html, body, * {
     font-size: 62.5%;
 }
 
-.image {
+#image {
     width: 350px;
     height: 350px;
+    border: .5rem solid brown;
+}
 
+<<<<<<< HEAD
 }
 
 .parent {
     display: flex;
     flex-wrap: wrap;
+=======
+.cards {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: ;
+}
+
+.card {
+    margin: 7rem;
+    max-width: 100rem;
+    border: .5rem solid brown;
+    box-shadow:-5px 10px 20px brown;
+    color: red; 
+}
+
+#text {
+    font-size: 2rem;
+    text-align: center;
+}
+
+body {
+    background-color: #ffd700;
+>>>>>>> 81f73d4bb92afaf82c04a1183c38cea2e657c228
 }
