@@ -11,3 +11,8 @@ html, body, * {
     height: 350px;
 
 }
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
