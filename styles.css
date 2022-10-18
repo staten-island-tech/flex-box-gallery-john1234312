@@ -19,6 +19,7 @@ html, body, * {
     justify-content: space-around;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .card {
@@ -27,6 +28,8 @@ html, body, * {
     border: .5rem solid brown;
     box-shadow:-5px 10px 20px brown;
     color: red; 
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 #text {
@@ -37,3 +40,48 @@ html, body, * {
 body {
     background-color: #ffd700;
 }
+
+#card1{
+    opacity: 1;
+}
+
+#card1:hover {
+    opacity: 0;
+}
+
+#card2:hover {
+    border: 1.2rem solid brown;
+}
+
+#card3:hover {
+    border-color: pink;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+#card5:hover {
+    transform: rotate(3deg); 
+    transform: rotate(0.3rad);
+    transform: rotate(3grad);  
+    transform: rotate(.03turn);
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;  
+}
+
+#card4:hover {
+    transform: scale(1.5,1.5);
+}
+
+#card6:hover {
+    transform: scale(0.5,0.5);
+}
+    
