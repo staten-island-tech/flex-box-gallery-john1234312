@@ -85,9 +85,25 @@ body {
 }
 
 @media all and (max-width: 400px) {
-.card {
-    justify-content: space-around;
-    margin-left: 500px;
-    margin-right: 500px;
+    .card {
+        background-color: blue;
+    }
 }
+
+@media all and (min-width: 401px) {
+    .card {
+        background-color: pink;
+    }
+}
+
+@media all and (min-width: 769px) {
+    .card {
+        background-color: aqua;
+    }
+}
+
+@media all and (min-width: 1025px) {
+    .card {
+        background-color: yellow;
+    }
 }
